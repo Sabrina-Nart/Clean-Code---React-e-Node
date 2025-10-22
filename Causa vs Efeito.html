@@ -1,0 +1,12 @@
+// Causa vs Efeito
+
+function Button() {
+    const isFormSubmitting = true
+
+    return (
+        <button disabled={isForSubmitting}>
+            <espan></espan>
+            {isFormSubmitting ? 'Carregando' : 'Enviar formulário'}
+        </button>
+    );
+}   
